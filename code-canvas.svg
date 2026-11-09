@@ -26,7 +26,6 @@
     @keyframes reveal {0%,10%{width:0} 42%,84%{width:360px} 94%,100%{width:0}}
     @keyframes cursor {0%,10%{transform:translateX(0)} 42%,84%{transform:translateX(360px)} 94%,100%{transform:translateX(0)}}
     @keyframes blink {50%{opacity:0}}
-    @media (prefers-reduced-motion:reduce) {.orbit,.glow,.reveal,.cursor,.caret{animation:none}.cursor{display:none}}
   </style>
   <g clip-path="url(#frame)">
     <rect width="960" height="360" fill="url(#base)"/>
