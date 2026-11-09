@@ -1,5 +1,5 @@
-![Kenul Nenuka — Code × Canvas. Software developer and designer. Web design and digital experiences.](https://raw.githubusercontent.com/KenulNenuka/KenulNenuka/c75c04941133e63833f692c6f21906960726b73e/code-canvas.svg)
+![Kenul Nenuka — Code × Canvas. Software developer and designer. Web design and digital art.](https://raw.githubusercontent.com/KenulNenuka/KenulNenuka/19448034202d6e8e21cc9f5941703eee6853f5f0/code-canvas.svg)
 
-## Web design
+## Web design & digital art
 
-I design and build websites with a focus on clean layouts, thoughtful typography, and a visual identity that fits each project.
+I design and build websites and create digital art. I bring the two together through layout, typography, and artwork that fits each project.
