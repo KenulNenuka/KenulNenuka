@@ -1,4 +1,4 @@
-![Kenul Nenuka — Code × Canvas. Software developer and designer. Web design and a game in the works.](https://raw.githubusercontent.com/KenulNenuka/KenulNenuka/f96e0adfdc269e2b016bacaee191a118b5b6ad15/code-canvas.svg)
+![Kenul Nenuka — Code × Canvas. Software developer and designer. Web design and a game in the works.](https://raw.githubusercontent.com/KenulNenuka/KenulNenuka/4ed8e7b76cafa4489398bc795ae36d748a7fa635/code-canvas.svg)
 
 ## 01 / Web design
 
