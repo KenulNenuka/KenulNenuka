@@ -16,12 +16,10 @@
   </defs>
   <style>
     .mono {font-family:Consolas,'Liberation Mono',monospace}
-    .orbit {transform-origin:758px 161px; animation:orbit 24s linear infinite}
     .glow {animation:breathe 8s ease-in-out infinite alternate}
     .reveal {animation:reveal 8s steps(24,end) infinite}
     .cursor {animation:cursor 8s steps(24,end) infinite}
     .caret {animation:blink .85s steps(1,end) infinite}
-    @keyframes orbit {to{transform:rotate(360deg)}}
     @keyframes breathe {from{transform:translate(-85px,24px)}to{transform:translate(70px,-25px)}}
     @keyframes reveal {0%,10%{width:0} 42%,84%{width:360px} 94%,100%{width:0}}
     @keyframes cursor {0%,10%{transform:translateX(0)} 42%,84%{transform:translateX(360px)} 94%,100%{transform:translateX(0)}}
@@ -36,11 +34,29 @@
     <circle cx="33" cy="28" r="4" fill="#fa95a1"/><circle cx="48" cy="28" r="4" fill="#f4cf86"/><circle cx="63" cy="28" r="4" fill="#83eaca"/>
     <text x="86" y="33" class="mono" fill="#e1dafa" font-size="14" letter-spacing="1.7">KENUL / WORKSPACE</text>
     <text x="925" y="33" text-anchor="end" class="mono" fill="#9ff3e1" font-size="13" letter-spacing="1.8">PROFILE.LOG</text>
-    <g fill="none" stroke="#c8b4ff" stroke-opacity=".34">
-      <circle cx="758" cy="161" r="75"/><circle cx="758" cy="161" r="97" stroke-dasharray="2 7"/>
-      <g class="orbit"><ellipse cx="758" cy="161" rx="108" ry="40" transform="rotate(-30 758 161)"/><circle cx="838" cy="102" r="5" fill="#a5ffe8" stroke="none"/></g>
+    <g transform="translate(758 161)">
+      <circle r="94" fill="none" stroke="#dac9ff" stroke-opacity=".27" stroke-dasharray="1 7"/>
+      <g transform="rotate(-32)" color="#79ffe0">
+        <ellipse rx="110" ry="41" fill="none" stroke="currentColor" stroke-opacity=".42"/>
+        <g fill="currentColor">
+          <animateMotion path="M 110 0 A 110 41 0 1 1 -110 0 A 110 41 0 1 1 110 0" rotate="auto" dur="8s" begin="-2s" repeatCount="indefinite"/>
+          <circle cx="-22" r="2" opacity=".22"/><circle cx="-14" r="2.8" opacity=".38"/>
+          <circle cx="-7" r="3.5" opacity=".62"/><circle r="11" opacity=".18"/>
+          <circle r="5" fill="#c7fff2"/>
+        </g>
+      </g>
+      <g transform="rotate(36)" color="#c4a1ff">
+        <ellipse rx="100" ry="47" fill="none" stroke="currentColor" stroke-opacity=".48"/>
+        <g fill="currentColor">
+          <animateMotion path="M 100 0 A 100 47 0 1 0 -100 0 A 100 47 0 1 0 100 0" rotate="auto" dur="11s" begin="-5s" repeatCount="indefinite"/>
+          <circle cx="-18" r="1.7" opacity=".22"/><circle cx="-11" r="2.4" opacity=".38"/>
+          <circle cx="-5" r="3" opacity=".62"/><circle r="9" opacity=".2"/>
+          <circle r="4" fill="#f0deff"/>
+        </g>
+      </g>
+      <circle r="34" fill="#151731" stroke="#d0bbff" stroke-opacity=".48"/>
+      <text y="12" text-anchor="middle" class="mono" fill="#ebdfff" font-weight="700" font-size="38">&lt;/&gt;</text>
     </g>
-    <text x="758" y="178" text-anchor="middle" class="mono" fill="#ebdfff" font-weight="700" font-size="53">&lt;/&gt;</text>
     <text x="58" y="103" class="mono" fill="#a8f7e6" font-size="18" font-weight="700" letter-spacing="4">CODE × CANVAS</text>
     <text x="54" y="179" fill="#f9f6ff" font-family="Segoe UI,Arial,sans-serif" font-size="68" font-weight="750" letter-spacing="-2">Kenul Nenuka</text>
     <text x="59" y="222" fill="#dad5ed" font-family="Segoe UI,Arial,sans-serif" font-size="23">Software Developer &amp; Designer</text>
