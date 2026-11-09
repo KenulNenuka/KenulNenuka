@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360" role="img" aria-labelledby="title desc">
   <title id="title">Kenul Nenuka — Code × Canvas</title>
-  <desc id="desc">A neon terminal banner with looping typing animation for software development and digital design.</desc>
+  <desc id="desc">A neon terminal banner with looping typing animation about web design and a game in development.</desc>
   <defs>
     <linearGradient id="base" x2="1" y2="1" gradientUnits="objectBoundingBox">
       <stop stop-color="#0c1429"/><stop offset=".58" stop-color="#25204b"/><stop offset="1" stop-color="#103942"/>
@@ -47,7 +47,7 @@
     <text x="59" y="222" fill="#dad5ed" font-family="Segoe UI,Arial,sans-serif" font-size="23">Software Developer &amp; Designer</text>
     <rect x="58" y="261" width="844" height="57" rx="10" fill="#09121e" fill-opacity=".88" stroke="#b5a1f2" stroke-opacity=".33"/>
     <text x="80" y="297" class="mono" fill="#a2fee5" font-size="24">❯</text>
-    <text x="111" y="296" class="mono" fill="#f7f4ff" font-size="22" textLength="355" lengthAdjust="spacingAndGlyphs" clip-path="url(#type)">Python · SQLite · Digital art</text>
+    <text x="111" y="296" class="mono" fill="#f7f4ff" font-size="22" textLength="355" lengthAdjust="spacingAndGlyphs" clip-path="url(#type)">Web design · Game in the works</text>
     <g class="cursor"><rect class="caret" x="112" y="278" width="9" height="23" rx="2" fill="#a2fee5"/></g>
     <text x="881" y="295" text-anchor="end" class="mono" fill="#b9b1d1" font-size="13" letter-spacing="1.5">BUILD / DESIGN</text>
   </g>
