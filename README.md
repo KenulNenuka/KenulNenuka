@@ -1,17 +1,9 @@
-![Kenul Nenuka — Code × Canvas. Software developer and designer. Python, SQLite, and digital art.](./code-canvas.svg)
+![Kenul Nenuka — Code × Canvas. Software developer and designer. Web design and a game in the works.](./code-canvas.svg)
 
-## 01 / About me
+## 01 / Web design
 
-```python
-kenul = {
-    "role": "Software Developer & Designer",
-    "tools": ["Python", "SQLite"],
-    "interests": ["command-line tools", "digital art"],
-}
-```
+I design and build websites with a focus on clean layouts, thoughtful typography, and a visual identity that fits each project.
 
-## 02 / Featured build
+## 02 / Game in the works
 
-**[Library Management System ↗](https://github.com/KenulNenuka/Library--Connect-SQL-with-Python)**
-
-A Python command-line project that uses SQLite to store and manage library records.
+🎮 I’m building a game. More to share when it’s ready to show.
