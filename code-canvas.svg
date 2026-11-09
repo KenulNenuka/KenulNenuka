@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360" role="img" aria-labelledby="title desc">
+  <title id="title">Kenul Nenuka — Code × Canvas</title>
+  <desc id="desc">A neon terminal banner with looping typing animation for software development and digital design.</desc>
+  <defs>
+    <linearGradient id="base" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#0c1429"/><stop offset=".58" stop-color="#25204b"/><stop offset="1" stop-color="#103942"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop stop-color="#8e66ff" stop-opacity=".65"/><stop offset="1" stop-color="#8e66ff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#e4d8ff" stroke-opacity=".085"/>
+    </pattern>
+    <clipPath id="frame"><rect x="1" y="1" width="958" height="358" rx="24"/></clipPath>
+    <clipPath id="type"><rect x="111" y="272" width="380" height="35" class="reveal"/></clipPath>
+  </defs>
+  <style>
+    .mono {font-family:Consolas,'Liberation Mono',monospace}
+    .orbit {transform-origin:758px 161px; animation:orbit 24s linear infinite}
+    .glow {animation:breathe 8s ease-in-out infinite alternate}
+    .reveal {animation:reveal 8s steps(24,end) infinite}
+    .cursor {animation:cursor 8s steps(24,end) infinite}
+    .caret {animation:blink .85s steps(1,end) infinite}
+    @keyframes orbit {to{transform:rotate(360deg)}}
+    @keyframes breathe {from{transform:translate(-85px,24px)}to{transform:translate(70px,-25px)}}
+    @keyframes reveal {0%,10%{width:0} 42%,84%{width:360px} 94%,100%{width:0}}
+    @keyframes cursor {0%,10%{transform:translateX(0)} 42%,84%{transform:translateX(360px)} 94%,100%{transform:translateX(0)}}
+    @keyframes blink {50%{opacity:0}}
+    @media (prefers-reduced-motion:reduce) {.orbit,.glow,.reveal,.cursor,.caret{animation:none}.cursor{display:none}}
+  </style>
+  <g clip-path="url(#frame)">
+    <rect width="960" height="360" fill="url(#base)"/>
+    <ellipse class="glow" cx="740" cy="110" rx="395" ry="230" fill="url(#glow)"/>
+    <rect width="960" height="360" fill="url(#grid)"/>
+    <path d="M-20 336Q206 284 473 345T980 304V360H-20Z" fill="#58e9cd" fill-opacity=".07"/>
+    <path d="M0 54H960" stroke="#d8d2f9" stroke-opacity=".18"/>
+    <circle cx="33" cy="28" r="4" fill="#fa95a1"/><circle cx="48" cy="28" r="4" fill="#f4cf86"/><circle cx="63" cy="28" r="4" fill="#83eaca"/>
+    <text x="86" y="33" class="mono" fill="#e1dafa" font-size="14" letter-spacing="1.7">KENUL / WORKSPACE</text>
+    <text x="925" y="33" text-anchor="end" class="mono" fill="#9ff3e1" font-size="13" letter-spacing="1.8">PROFILE.LOG</text>
+    <g fill="none" stroke="#c8b4ff" stroke-opacity=".34">
+      <circle cx="758" cy="161" r="75"/><circle cx="758" cy="161" r="97" stroke-dasharray="2 7"/>
+      <g class="orbit"><ellipse cx="758" cy="161" rx="108" ry="40" transform="rotate(-30 758 161)"/><circle cx="838" cy="102" r="5" fill="#a5ffe8" stroke="none"/></g>
+    </g>
+    <text x="758" y="178" text-anchor="middle" class="mono" fill="#ebdfff" font-weight="700" font-size="53">&lt;/&gt;</text>
+    <text x="58" y="103" class="mono" fill="#a8f7e6" font-size="18" font-weight="700" letter-spacing="4">CODE × CANVAS</text>
+    <text x="54" y="179" fill="#f9f6ff" font-family="Segoe UI,Arial,sans-serif" font-size="68" font-weight="750" letter-spacing="-2">Kenul Nenuka</text>
+    <text x="59" y="222" fill="#dad5ed" font-family="Segoe UI,Arial,sans-serif" font-size="23">Software Developer &amp; Designer</text>
+    <rect x="58" y="261" width="844" height="57" rx="10" fill="#09121e" fill-opacity=".88" stroke="#b5a1f2" stroke-opacity=".33"/>
+    <text x="80" y="297" class="mono" fill="#a2fee5" font-size="24">❯</text>
+    <text x="111" y="296" class="mono" fill="#f7f4ff" font-size="22" textLength="355" lengthAdjust="spacingAndGlyphs" clip-path="url(#type)">Python · SQLite · Digital art</text>
+    <g class="cursor"><rect class="caret" x="112" y="278" width="9" height="23" rx="2" fill="#a2fee5"/></g>
+    <text x="881" y="295" text-anchor="end" class="mono" fill="#b9b1d1" font-size="13" letter-spacing="1.5">BUILD / DESIGN</text>
+  </g>
+  <rect x="1" y="1" width="958" height="358" rx="24" fill="none" stroke="#a28bda" stroke-opacity=".65" stroke-width="2"/>
+</svg>
